@@ -1,0 +1,48 @@
+-- CSP Study File
+
+-- @author Rafael Lima
+
+-- Function Identity
+id1(x) = x
+
+-- Fibonatti Function
+fib(0) = 1
+fib(1) = 1
+fib(n) = fib(n-1) + fib(n-2)
+
+-- Datatype
+datatype NameColor = Red | Green | Blue
+
+-- Channels ( Used for declare Events)
+channel tick, tock
+channel buffer:{0..5}.Bool
+
+-- Process Definition
+P = tick->tock->P
+P2 = tick->tock->P2
+
+D0 = tick-> buffer.0.False -> buffer.0.True -> STOP
+D1 = buffer.0.True -> buffer.1.False -> buffer.1.True -> STOP
+
+--- If anyone is true STOP
+D = buffer?a!True -> STOP
+
+--- If anyone is False then keep trying
+D2 = buffer?a!False -> D
+
+--- Select only 1,2 and 3
+D4 = buffer?a:{1,2,3}?b -> STOP
+
+--- Parallel Process without sync
+SISTEMA = D [] D2 [] D1
+
+PSIS = P2 [{tick,tock}||{tick,tock}] P
+
+--- Clock Definition
+clock(0,A) = A
+clock(1,A) = tock -> A
+clock(n,A) = if n>0 then tock -> clock(n-1,A) else error("Invalid Input")
+
+B = tick -> B
+
+tB = tick -> clock(10,B)
