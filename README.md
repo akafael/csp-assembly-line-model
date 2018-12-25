@@ -10,5 +10,25 @@ Repositório referente aos trabalhos feitos ao longo da disciplina de Programaç
  * [csp](csp): Arquivo em CSPm do modelo
  * [ref](ref): Manuais e Artigos para referência
 
+## Referencias
+
+### Links Cursos
+
+ * [Curso Online](https://www.coursera.org/learn/real-time-systems/)
+ * [YouTube](https://www.youtube.com/watch?v=BxYwjdrdnQg)
+ * [Course - Eric Goodyer](https://www.youtube.com/watch?v=Ai3ySuCyzNU)
+ * [Artigo](https://www.embarcados.com.br/sistemas-operacionais-de-tempo-real-rtos/)
+ * [Artigo NI](http://www.ni.com/white-paper/3938/pt/)
+ * [Ian Sommerville 1](https://www.youtube.com/watch?v=_U6Le3_eL2I)
+ * [Ian Sommerville 2](https://www.youtube.com/watch?v=OmRVgmVgt4Y)
+ * [FreeRTOS on Arduino](https://create.arduino.cc/projecthub/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
+ * <https://github.com/Lembed/Awesome-arduino>
+
+### CSP
+ * [FDR4](https://www.cs.ox.ac.uk/projects/fdr/)
+ * [CSP for Java - p1](https://www.ibm.com/developerworks/library/j-csp1/index.html)
+ * [CSP for Java - p2](https://www.ibm.com/developerworks/library/j-csp2/index.html)
+ * [CSP_M](https://www.cs.ox.ac.uk/projects/fdr/manual/cspm.html)
+ * [FDR Manual](https://www.cs.ox.ac.uk/projects/fdr/downloads/fdr-manual.pdf)
  
  
