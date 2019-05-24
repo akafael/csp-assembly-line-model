@@ -2,7 +2,10 @@
 
 Modelo em [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes) do processo de montagem automatizada de uma chave de carro com controle por robôs das Fanuc descrito neste [vídeo](https://www.youtube.com/watch?v=GqrSYDNVXw8&feature=youtu.be) com base no sistema [FDR4](https://www.cs.ox.ac.uk/projects/fdr/).
 
-Repositório referente aos trabalhos feitos ao longo da disciplina de Programação em Tempo Real na UnB ministrada pela professora Dr. Carla MCe C. Koike.
+Repositório referente aos trabalhos feitos ao longo da disciplina de [Programação em Tempo Real](https://www.matriculaweb.unb.br/graduacao/disciplina.aspx?cod=116599) na UnB ministrada pela professora [Dr. Carla MCe C. Koike](https://cic.unb.br/~ckoike/index.html).
+
+[![FANUC ROBOTICS KEY ASSEMBLY](https://img.youtube.com/vi/GqrSYDNVXw8/0.jpg)](https://www.youtube.com/watch?v=GqrSYDNVXw8)
+
 
 ## Pastas
 
